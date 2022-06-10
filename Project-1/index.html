@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit's Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<style>
+    /*CSS Reset*/
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('back.jpg');
+        background-repeat: no-repeat;
+        background-size: 1600px 1200px;
+    }
+
+    .left {
+        display: inline-block;
+        color: aliceblue;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 22px;
+    }
+
+    .left img {
+        width: 136px;
+        /* filter: invert(100%); */
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+        color: aqua;
+        /* border: 2px solid greenyellow; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 33px;
+        display: inline-block;
+        color: beige;
+        /* border: 2px solid blueviolet; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 15px;
+        color: aliceblue;
+        display: inline-block;
+    }
+
+    .navbar li a {
+
+        color: aliceblue;
+        font-size: 16px;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(45, 42, 42);
+    }
+
+    .container {
+        /* border: 2px solid goldenrod; */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        /* border: 2px solid magenta; */
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="Header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="jod.png" alt="">
+            <div>Sumit's Fitness</div>
+
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Kota Now</h1>
+        <form action="notation.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

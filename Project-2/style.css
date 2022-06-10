@@ -1,0 +1,21 @@
+.left{
+    display: inline-block;
+    border: 2px solid mediumseagreen;
+    left: 34px;
+    top: 22px;
+    position: absolute;
+}
+.left li{
+    display: inline-block;
+}
+.mid{
+    display: block;
+    border: 2px solid wheat;
+    text-align: center;
+    width: 33%;
+    margin: auto;
+}
+    
+.mid li{
+    display: inline-block;
+}
